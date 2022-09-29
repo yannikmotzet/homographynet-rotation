@@ -11,8 +11,8 @@ adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression he
 * (optional) download trained model [here](https://drive.google.com/drive/folders/1UBh2fX9am77awOvVaEN2x_tiD78i2fWd?usp=sharing)
 
 ## Results
-* mean rotation error: 5.6°
-* median rotation error: 3.6°
+* mean rotation error: 4.1°
+* median rotation error: 2.5°
 
 ## Credits
 * [mazenmel/Deep-homography-estimation-Pytorch](https://github.com/mazenmel/Deep-homography-estimation-Pytorch) (data generation)
