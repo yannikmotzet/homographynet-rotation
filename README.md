@@ -15,7 +15,7 @@ adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression he
 ![model loss](resources/model_loss.png "Model Loss")
 
 ### Test
-[03_network_inference.ipynb](03_network_inference.ipynb) test rotation error
+[03_network_inference.ipynb](03_network_inference.ipynb) test with test pairs and calculate rotation error
 * mean rotation error: 4.1°
 * median rotation error: 2.5°
 
