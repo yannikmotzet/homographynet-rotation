@@ -1,5 +1,5 @@
 # rotation-net
-adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression head) by DeTone et al. for learning rotations of images with tensorflow
+adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression head) by DeTone et al. for learning rotations of images with pytorch/tensorflow
 
 ![homography net architecture](resources/homographynet.png "HomographyNet")
 
@@ -10,12 +10,12 @@ adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression he
 ![image pair sample](resources/image_pairs_sample.png "Image Pair Sample")
 
 ### Training
-[02_network_training.ipynb](02_network_training.ipynb) train and evaluate HomographyNet with train and val image pairs
+[02_network_training_torch.ipynb](02_network_training_torch.ipynb) / [02_network_training_tf.ipynb](02_network_training_tf.ipynb) train and evaluate HomographyNet with train and val image pairs
 
 ![model loss](resources/model_loss.png "Model Loss")
 
 ### Test
-[03_network_inference.ipynb](03_network_inference.ipynb) test with test pairs and calculate rotation error
+[03_network_inference_torch.ipynb](03_network_inference_torch.ipynb) / [03_network_inference_tf.ipynb](03_network_inference_tf.ipynb) test with test pairs and calculate rotation error
 * mean rotation error: 4.1°
 * median rotation error: 2.5°
 
@@ -26,5 +26,5 @@ adaption of [HomographyNet](https://arxiv.org/pdf/1606.03798.pdf) (regression he
 * (optional) download trained model [here](https://drive.google.com/drive/folders/1UBh2fX9am77awOvVaEN2x_tiD78i2fWd?usp=sharing)
 
 ## Credits
-* [mazenmel/Deep-homography-estimation-Pytorch](https://github.com/mazenmel/Deep-homography-estimation-Pytorch) (data generation)
+* [mazenmel/Deep-homography-estimation-Pytorch](https://github.com/mazenmel/Deep-homography-estimation-Pytorch) (data generation, pytorch implementation)
 * [richard-guinto/homographynet](https://github.com/richard-guinto/homographynet) (tensorflow implementation)
